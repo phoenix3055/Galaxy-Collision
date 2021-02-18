@@ -12,7 +12,7 @@ G = 1  # gravitational constant ##N*m^2 / kg^2
 n_0 = 1  # number of black holes
 black = np.ones((n_0, 7)) * [1000, 0, 0, 0, 25, 25, 25]  # black hole array
 
-n = 100  # number of spheres
+n = 100  # number of spheresb
 sphere = np.ones((n, 7))  # array to store sphere objects with a mass and position attribute respectively
 sphere[:, 1:4] = sphere[:, 1:4] * np.random.rand(n, 3) * 0  # giving each sphere a random momentum from 0-10
 sphere[:, 4:] = sphere[:, 4:] * np.random.rand(n, 3) * 50  # giving each sphere random positions from 0-100
